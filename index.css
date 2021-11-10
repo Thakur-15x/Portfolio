@@ -1,0 +1,34 @@
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    padding-top: 2px;
+    padding-left: 60px;
+    list-style: none;
+}
+.logo img{
+    padding-left: 15px;
+    display: flex;
+    object-fit: contain;
+    max-width: 90px;
+}
+.nav{
+    display: flex;
+   
+}
+.container{
+    margin-top: 10px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(155, 155, 155);
+    display: flex;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+.nav ul li a:hover{
+    color: blue;
+}
